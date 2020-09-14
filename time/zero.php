@@ -9,6 +9,7 @@ function send_to_misskey($message) {
       'content' => json_encode($message),
     )
   );
+  $response = file_get_contents($webhook_url, false, stream_context_create($options));
   return $response === 'ok';
 }
 
