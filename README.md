@@ -1,5 +1,5 @@
 ## なにこれ
-元は[衣亜(@ia@misskey.lei202.com)](https://mk.lei202.com/@ia/)にTodoや時報を付けたいと思った結果の産物。
+元は[衣亜(@ia@mk.lei202.com)](https://mk.lei202.com/@ia/)にTodoや時報を付けたいと思った結果の産物。
 
 TypeScriptとか無茶なのでググればどうにかなる ~~(と何故か思った)~~ PHPで作った。
 
