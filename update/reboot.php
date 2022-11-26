@@ -14,7 +14,7 @@ function send_to_misskey($message) {
 }
 $message = array(
   'i' => 'API_KEY',
-  'text' => "【Misskey_Reboot!】\n**Misskey再起動するよ～！！！**\nバーション変更投稿か、\nこの投稿から５分経ったら再起動したと判断して！",
+  'text' => "【Misskey_Reboot!】\n**Misskey再起動するよ～！！！**",
   'localOnly' => true,
 );
 send_to_misskey($message);
