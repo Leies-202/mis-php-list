@@ -14,7 +14,7 @@ function send_to_misskey($message) {
 }
 $message = array(
   'i' => 'API_KEY',
-  'text' => "【Misskey_Update_Start!】\nれいすきーのUpdate開始！\n**15分は高負荷と再起動に注意して！！！**",
+  'text' => "【Misskey_Update_Start!】\nれいすきーのアップデート開始！\n**6分ぐらい高負荷に注意！！！**",
   'localOnly' => true,
 );
 send_to_misskey($message);
