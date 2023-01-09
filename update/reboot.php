@@ -14,7 +14,7 @@ function send_to_misskey($message) {
 }
 $message = array(
   'i' => 'API_KEY',
-  'text' => "【Misskey_Reboot!】\n**Misskey再起動するよ～！！！**",
+  'text' => "【Misskey_Reboot!】\nMisskey再起動するよ～！\n**切断に注意！！**",
   'localOnly' => true,
 );
 send_to_misskey($message);
