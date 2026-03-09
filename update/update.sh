@@ -21,6 +21,8 @@ rm -rf /tmp/nginx_cache
 nginx -s reload
 php reboot.php
 sleep 10s
+systemctl restart mongod
+sleep 2s
 systemctl restart misskey
     ;;
   * )
